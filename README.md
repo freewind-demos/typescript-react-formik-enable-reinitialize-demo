@@ -1,7 +1,9 @@
-TypeScript React Formik Demo
+TypeScript React Formik "enableReinitialize" Demo
 =================================
 
-合理使用Formik的话，好像可以让form的验证以及设值等，变得简单一点。
+Formik里有一个enableReinitialize，默认为false，当设为true时，如果initializeValues变了，它会重新渲染form
+
+默认为false是为了防止意外变化把用户输入的数据给弄没了
 
 ```
 npm install
